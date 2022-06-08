@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.calc{
+   width: 390px;
+   margin: auto;
+
+}
+.display{
+    font-size: 60px;
+    text-align: right;
+    padding:10px 20px;
+    height: 100px;
+}
+
+
+
+.key{
+    background-color: rgb(48, 46, 46);
+    width: 90px;
+    height: 90px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50%;
+    margin:5px  ;
+   line-height: 90px;
+   cursor: pointer;
+   user-select: none;
+}
+.key:active{
+    background-color: rgb(31, 30, 30);
+}
+.Zero{
+    width: 190px;
+    border-radius: 90px;
+}
+tr:first-child td .key{
+    background-color: gainsboro;
+    color: black;
+}
+tr:first-child td .key:active{
+    background-color: rgb(172, 170, 170);
+
+}
+tr td:last-child .key{
+    background-color:#ffa45c;
+    color: white;
+}
+tr td:last-child .key:active{
+    background-color:#e28f4b;
+
+}
